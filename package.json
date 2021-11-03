@@ -1,5 +1,5 @@
 {
-  "name": "tinyhouse",
+  "name": "tinyhouse-server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -16,7 +16,8 @@
   },
   "scripts": {
     "start": "nodemon src/index.ts",
-    "seed": "ts-node temp/seed.ts"
+    "seed": "ts-node temp/seed.ts",
+    "clear": "ts-node temp/clear.ts"
   },
   "devDependencies": {
     "@types/graphql": "^14.5.0",
